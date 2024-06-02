@@ -31,7 +31,7 @@ jobs:
           node-version: 18
 
       - name: Install dependencies
-        run: npm install redocly
+        run: npm install @redocly/cli@latest
 
       - name: Build Redoc static HTML
         run: |
